@@ -1,0 +1,101 @@
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+  .cards {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 992px) {
+  .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .links ul li {
+    display: none;
+  }
+  .links .list {
+    display: block;
+  }
+  .home .container .home-img {
+    width: 40%;
+    /* height: 427px; */
+  }
+  .home-text .home-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .imgs-work .inner-img {
+    width: 46%;
+  }
+  /* skills */
+  .cards {
+    flex-wrap: wrap;
+  }
+  .cards .card {
+    width: 20%;
+  }
+  /* contact */
+  input {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* navbar */
+  .logo > a {
+    display: none;
+  }
+  /* navbar */
+  /* home section */
+  .container .home-text {
+    max-width: 80%;
+  }
+  .home-text .home-btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .home .container .home-img {
+    width: 445px;
+    height: 100%;
+  }
+  .numbers div {
+    /* width: calc(50% - 20px); */
+  }
+  /* work */
+  .imgs-work .inner-img{
+    width: 80%;
+  }
+  /* skills */
+  .cards .card {
+    width: 30%;
+  }
+  /* contact */
+    .contact .container {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .form , .form-data {
+        width: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .form , .form-data {
+        width: 100%;
+    }
+}
+@media (max-width: 383px) {
+     .cards .card {
+    width: 100%;
+  }
+}
